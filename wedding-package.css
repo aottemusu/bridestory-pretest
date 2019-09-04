@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-display: swap;
+    src: local('Roboto'), url('../bridestory-pretest/fonts/Roboto-Medium.ttf') format('ttf');
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica", "Arial", sans-serif;
+    font-variant-ligatures: none;
+    letter-spacing: 0;
+    word-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering:optimizeLegibility; 
+}
+
+.package-content .wp-container {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+}
+
+.wp-container .wp-image {
+    position: relative;
+}
+
+.wp-container .wp-image img {
+    width: 330px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.wp-container .wp-image .additional-info {
+    color: orange;
+    position: absolute;
+    background: white;
+    right: 0;
+    top: 20px;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 12px;
+}
+
+.wp-container .wp-image .additional-info .icon-info-discount {
+    width: 30px;
+    height: 30px;
+    padding-right: 25px;
+    background-color: orange;
+    -webkit-mask: url('../bridestory-pretest/images/tag.svg') no-repeat center;
+    mask: url('../bridestory-pretest/images/tag.svg') no-repeat center;
+}
+
+.wp-container .wp-content {
+    border: 1px solid rgba(210, 215, 211, 1);
+    width: 308px;
+    padding: 10px;
+}
+
+.wp-container .wp-title {
+    width: 310px;
+    max-height: 45px;
+    height: 100%;
+    font-size: 20px;
+    position: relative;
+}
+
+.wp-container .wp-price {
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.wp-container .wp-price .price-before-disc {
+    color: red;
+    text-decoration: line-through;
+}
+
+.wp-container .wp-price .price-after {
+    color: green;
+    margin-left: 10px;
+}
+
+.wp-container .wp-tools {
+    display: inline-flex;
+}
+
+.wp-container .wp-tools .total-seen,
+.wp-container .wp-tools .total-like,
+.wp-container .wp-tools .total-sold {
+    margin-right: 15px;
+}
+
+.wp-container .wp-tools .icon {
+    width: 30px;
+    height: 30px;
+    padding-right: 25px;
+    background-color: gray;
+}
+
+.wp-container .wp-tools .icon-total-seen {
+    -webkit-mask: url('../bridestory-pretest/images/eye.svg') no-repeat center;
+    mask: url('../bridestory-pretest/images/eye.svg') no-repeat center;
+}
+
+.wp-container .wp-tools .icon-total-like {
+    -webkit-mask: url('../bridestory-pretest/images/love.svg') no-repeat center;
+    mask: url('../bridestory-pretest/images/love.svg') no-repeat center;
+}
+
+.wp-container .wp-tools .icon-total-sold {
+    -webkit-mask: url('../bridestory-pretest/images/check.svg') no-repeat center;
+    mask: url('../bridestory-pretest/images/check.svg') no-repeat center;
+}
+
+.wp-container .wp-price .price-before,
+.wp-container .wp-tools .wording-total {
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .package-content .wp-container {
+        margin: 5vw 2vw;
+    }
+}

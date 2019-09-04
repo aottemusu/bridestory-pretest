@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Contemporary Wedding by Plataran Indonesia",
+    "currency": "IDR",
+    "price": 60000000,
+    "discount": 20,
+    "image": "plataran-indonesia.jpg",
+    "views": 12388,
+    "likes": 84,
+    "sold": 3
+  },
+  {
+    "id": 2,
+    "title": "Flawless Photography by Axioo",
+    "currency": "IDR",
+    "price": 20000000,
+    "discount": 0,
+    "image": "axioo-photography.jpg",
+    "views": 232,
+    "likes": 12,
+    "sold": 15
+  }
+]
